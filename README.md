@@ -1,6 +1,6 @@
-#Coursera course: HTML, CSS, and Javascript for Web Developers
+# Coursera course: HTML, CSS, and Javascript for Web Developers
 
-### modulo3-coursera
+## modulo3-coursera
 
 **Faça perguntas em Discussões se você ficar preso! Estamos todos aprendendo, e passar por ficar preso e depois desprender (mesmo com a ajuda de alguém) pode ser uma experiência de aprendizado muito valiosa!**
 
