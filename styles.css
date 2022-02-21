@@ -11,10 +11,11 @@ body{
 }
 
 #logo-img {
-    /*background: url("rest.png") no-repeat;*/
-    width: 150 px;
-    height: 150 px;
-    margin: 10px 15px 10px 0;
+    background: url("../images/logo-restaurante.png") no-repeat;
+    width: 177px;
+    height: 178px;
+    border-radius: 65px 65px 0 0;
+    margin: 1px 10px 1px 0; /*largura da navbar para a imagem*/
 }
 
 .navbar-brand {
@@ -24,13 +25,13 @@ body{
 .navbar-brand h1 { /*restaurante nome*/
     font-family: "fira", serif;
     color: black;
-    font-size: 2em; /*tamanho da fonte */
+    font-size: 3em; /*tamanho da fonte */
     text-transform: uppercase; /* fonte maiuscula*/
     font-weight: bold; /* largura da fonte */
     text-shadow: 3px 3px 3px rgb(210, 208, 219); /*sombra na fonte*/
     margin-top: 0;
     margin-bottom: 0;
-    line-height: 0; /* centralizar o texto na navbar*/
+    line-height: center; /* centralizar o texto na navbar*/
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
