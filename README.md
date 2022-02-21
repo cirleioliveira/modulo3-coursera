@@ -27,6 +27,13 @@ Aqui está o que você precisará para concluir a tarefa:
 
 Para visualização de desktop e tablet, a barra de navegação não deve conter mais nada. Nenhum outro botão deve estar visível. ( Dica: use a classe 'visible-xs'. )
 
+9. Navbar - Mobile View: Crie um botão de menu simples (3 barras horizontais). Quando o usuário clica nesse botão, um menu suspenso deve aparecer (como ilustrado na ilustração Mobile Open Menu abaixo). O menu suspenso deve conter 3 itens: **Frango, Carne e Sushi**.
+
+O menu suspenso deve ocupar toda a largura da janela do navegador. Certifique-se de que o menu suspenso tenha um conjunto de cores de fundo que o diferencie do restante do conteúdo.
+
+( Dica: consulte https://getbootstrap.com/docs/3.3/components/#navbar e a Aula 31 para obter exemplos de como fazer isso. )
+
+
 
 Tarefa: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md
 
