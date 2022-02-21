@@ -23,6 +23,10 @@ Aqui está o que você precisará para concluir a tarefa:
 - A ilustração da maquete do tablet deve corresponder às **sm** classes baseadas em Bootstrap
 - A ilustração de maquete móvel deve corresponder às **xs** classes baseadas em Bootstrap
 
+8. Navbar: Crie uma navbar que rola junto com a página (a navbar deve ficar invisível e não é fixada no topo quando você rola a página para baixo). A barra de navegação deve ter o nome da empresa (ou seja, navbar-brandclasse) chamado "Food, LLC" alinhado ao lado esquerdo da barra de navegação. ( Consulte https://getbootstrap.com/docs/3.3/components/#navbar . Torne a janela do navegador mais estreita para ver o botão do menu móvel aparecer no primeiro exemplo mostrado no link fornecido. )
+
+Para visualização de desktop e tablet, a barra de navegação não deve conter mais nada. Nenhum outro botão deve estar visível. ( Dica: use a classe 'visible-xs'. )
+
 
 Tarefa: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md
 
