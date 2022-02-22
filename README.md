@@ -32,6 +32,9 @@ Para visualização de desktop e tablet, a barra de navegação não deve conter
 O menu suspenso deve ocupar toda a largura da janela do navegador. Certifique-se de que o menu suspenso tenha um conjunto de cores de fundo que o diferencie do restante do conteúdo.
 
 ( Dica: consulte https://getbootstrap.com/docs/3.3/components/#navbar e a Aula 31 para obter exemplos de como fazer isso. )
+10. Cabeçalho da página. O cabeçalho da página que diz Nosso Menu deve ser centralizado na janela do navegador. Você deve usar uma classe Bootstrap para fazer isso.
+
+( Dica: procure uma classe Bootstrap que centralize o texto, veja https://getbootstrap.com/docs/3.3/css/#type-alignment . )
 
 
 
