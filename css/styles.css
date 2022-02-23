@@ -164,4 +164,37 @@ body{
   /* End Header */
 
 }
-    
+
+
+
+h1 {
+    color: white;
+    text-decoration: dotted;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    /*border: 1px solid black;
+    width: 30%;
+    height: 25px;*/
+    color: black;
+    text-align: center;
+    /*position: relative;*/
+    top: 45px;
+    left: 65%;
+  }
+
+
+
+
+  #ch {
+    border: 1px solid black;
+    background-color:  violet;;
+    width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: verdana;
+    padding: 40px 20px;  
+    /*text-align: justify;*/
+  }
