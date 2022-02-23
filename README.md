@@ -33,9 +33,9 @@ O menu suspenso deve ocupar toda a largura da janela do navegador. Certifique-se
 
 ( Dica: consulte https://getbootstrap.com/docs/3.3/components/#navbar e a Aula 31 para obter exemplos de como fazer isso. )
 
-10. Cabeçalho da página. O cabeçalho da página que diz Nosso Menu deve ser centralizado na janela do navegador. Você deve usar uma classe Bootstrap para fazer isso.
+10. Cabeçalho da página. O cabeçalho da página que diz **Our Menu** deve ser centralizado na janela do navegador. Você deve usar uma classe Bootstrap para fazer isso.
 
-( Dica: procure uma classe Bootstrap que centralize o texto, veja https://getbootstrap.com/docs/3.3/css/#type-alignment . )
+( Dica: procure uma classe Bootstrap que centralize o texto, veja https://getbootstrap.com/docs/3.3/css/#type-alignment . ) (https://getbootstrap.com.br/docs/4.1/utilities/text/)
 
 
 
