@@ -1,9 +1,11 @@
 body{
     font-size: 16px;
+    color: rgba(245, 237, 237, 0.911);
     background-color: rgb(133, 49, 49);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-/* HEADER */
+
+/* HEADER */ /*inicio header */
 #header-nav {
     background-color: rgb(200, 211, 42);
     border-radius: 0;
@@ -14,7 +16,6 @@ body{
     background: url("../images/logo-restaurante.png") no-repeat;
     width: 177px;
     height: 178px;
-    border-radius: 65px 65px 0 0;
     margin: 1px 10px 1px 0; /*largura da navbar para a imagem*/
 }
 
@@ -33,37 +34,29 @@ body{
     margin-bottom: 0;
     line-height: center; /* centralizar o texto na navbar*/
 }
-
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-
 .navbar-brand p { /*kosher cert*/
     color: 000;
     text-transform: uppercase;
     font-size: .7em;
     margin-top: 15px;
 }
-
 .navbar-brand p span { /* Star-k */
     vertical-align: middle;
 }
-
  /*menu*/
-#nav-list {
-   /* background-color: pink; /* cor fundo menu*/
+#nav-list { /* background-color: pink; /* cor fundo menu*/
     margin-top: 10px;
- }
-   
+ }   
 #nav-list a {
     color: #29138d;  
     text-align: center; /*alinhar texto menu*/
-}
-   
+}  
 #nav-list a:hover {  
-    background: #e7e7e7; /*navegação com mouse*/
+    background: #da8a21; /*navegação com mouse*/
 }
-
  #nav-list a span {  
     font-size: 1.5em; /* aumento*/
 }
@@ -71,35 +64,39 @@ body{
 #phone { 
     margin-top: 5px;
 }
-
 #phone a { /* Phone number */
     text-align: right;  
     padding-bottom: 0;
-}
-    
+}   
 #phone div { /* We Deliver */
-
     color: #557c3e;
     text-align: right;
     padding-right: 15px;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-    border: 1px solid #61122f;
-    
+    border: 1px solid #61122f;  
 }
-
 .navbar-header button.navbar-toggle {
     clear: both; 
     margin-top: -30px;
 }
     /* END HEADER */
     
- 
-    
+/*HOME PAGE*/ 
+.container .restaurante{
+    box-shadow: 0 0 50px #661331;
+    border: 2px solid #661331;
+}
+
+/* END HOME PAGE */
+
 /********** Large devices only **********/
 @media (min-width: 1200px) {
-
+    .container .restaurante{
+        background: url("../images/restaurante-1200.jpg") no-repeat;
+        height: 675px;
+    } 
 }
 
 /********** Medium devices only **********/
@@ -112,11 +109,23 @@ body{
     margin: 5px 5px 5px 0;
   }
   /* End Header */
+  
+  /* HOME PAGE */
+  .container .restaurante{
+      background: url('../images/restaurante-992.jpg.png') no-repeat;
+      height: 558px;
+  }
+  /* End Home Page */
 }
 
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-
+    /*HOME PAGE */
+    .container .restaurante{
+        background: url('../images/restaurante-992.jpg.png') no-repeat;
+        height:  432px;
+    }
+    /* End Home page */
 }
 
 /********** Extra small devices only **********/
@@ -163,38 +172,40 @@ body{
 }
   /* End Header */
 
+  /* Home Page */
+  .container .restaurante{
+      margin: 30px;
+      padding:  0;
+      box-shadow: 0 0 50px #661331;
+      border: 2px solid #661331;
+  }
+
 }
 
 
 
 h1 {
-    color: white;
+    color: rgb(240, 233, 233);
     text-decoration: dotted;
-    margin-bottom: 20px;
+    margin-bottom: auto;
   }
 
-  h3 {
-    /*border: 1px solid black;
-    width: 30%;
-    height: 25px;*/
+  #titulo {
     color: black;
     text-align: center;
-    /*position: relative;*/
+    position: relative;
     top: 45px;
-    left: 65%;
   }
-
-
 
 
   #ch {
-    border: 1px solid black;
-    background-color:  violet;;
+    background-color:  rgb(206, 75, 92);;
+    text-decoration: black;
     width: 90%;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
     font-family: verdana;
     padding: 40px 20px;  
-    /*text-align: justify;*/
+    text-align: justify;
   }
