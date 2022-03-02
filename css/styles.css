@@ -89,6 +89,18 @@ body{
     border: 2px solid #661331;
 }
 
+#menu-tile, #specials-tile, #map-tile{
+    height: 250px; /*altura*/
+    width: 100%; /*largura*/
+    margin-bottom: 15px; 
+    position: relative; /*não move o estilo para qualquer lugar*/
+    border: 2px solid #661331;
+    overflow: hidden;
+}
+#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+    box-shadow: 0 1px 5px 1px #cccccc; 
+}
+
 /* END HOME PAGE */
 
 /********** Large devices only **********/
@@ -184,10 +196,11 @@ body{
 
 
 
-h1 {
-    color: rgb(240, 233, 233);
+#titulo-principal {
+    color: rgb(221, 209, 209);
     text-decoration: dotted;
     margin-bottom: auto;
+    text-align: center;
   }
 
   #titulo {
