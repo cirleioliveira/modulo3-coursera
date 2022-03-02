@@ -88,8 +88,7 @@ body{
     box-shadow: 0 0 50px #661331;
     border: 2px solid #661331;
 }
-
-#menu-tile, #specials-tile, #map-tile{
+#frango, #carne, #sushi-tile, #map-tile{
     height: 250px; /*altura*/
     width: 100%; /*largura*/
     margin-bottom: 15px; 
@@ -97,9 +96,33 @@ body{
     border: 2px solid #661331;
     overflow: hidden;
 }
-#menu-tile:hover, #specials-tile:hover, #map-tile:hover{
+#frango:hover, #carne:hover, #sushi-tile, #map-tile:hover{
     box-shadow: 0 1px 5px 1px #cccccc; 
 }
+#frango{
+    background: url('../images/frango.jpg') no-repeat;
+    background-position: center;
+}
+#carne{
+    background: url('../images/carne.jpg') no-repeat;
+    background-position: center;
+}
+#sushi-tile{
+    background: url('../images/sushi.jpg') no-repeat;
+    background-position: center;
+}
+#frango span, #carne span, #sushi-tile span, #map-tile span { /*legenda da imagem*/
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    background-color: #000;
+    color: #fff;
+    opacity: .8; /*transparencia*/
+  }
 
 /* END HOME PAGE */
 
@@ -188,9 +211,13 @@ body{
   .container .restaurante{
       margin: 30px;
       padding:  0;
-      box-shadow: 0 0 50px #661331;
-      border: 2px solid #661331;
+      /*box-shadow: 0 0 50px #661331;
+      border: 2px solid #661331;*/
   }
+  #frango, #carne{
+    width: 360px;
+    margin: 0 auto 15px;
+}
 
 }
 
