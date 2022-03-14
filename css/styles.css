@@ -81,7 +81,36 @@ body{
     clear: both; 
     margin-top: -30px;
 }
-    /* END HEADER */
+/* END HEADER */
+
+.panel-footer{ /*roda pé inicio*/
+    margin-top: 30px;
+    padding-top: 35x;
+    padding-bottom: 30px;
+    background-color: #222;
+    border-top: 0;
+}
+
+.panel-footer div.row{
+    margin-bottom: 35px;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span, #address > span{
+    font-size: 1.3em;
+}
+#address p{
+    color: yellow;
+    font-size: .8em;
+    line-height: 1.8;
+}
+#Comentarios{
+    font-style: italic;
+}
+#Comentarios p:nth-child(2){
+    margin-top: 25px;
+}
     
 /*HOME PAGE*/ 
 .container .restaurante{
@@ -160,66 +189,94 @@ body{
         background: url('../images/restaurante-992.jpg.png') no-repeat;
         height:  432px;
     }
-    /* End Home page */
+        /* End Home page */
+    }
+
+    /********** Extra small devices only **********/
+    @media (max-width: 767px) {
+      /* Header */
+    .navbar-brand {
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1 { /* Restaurant name */
+        padding-top: 10px;
+        font-size: 5vw; /* 1vw = 1% of viewport width */
+    }
+    .navbar-brand p { /* Kosher cert */
+        font-size: .6em;
+        margin-top: 12px;
+    }
+    .navbar-brand p img { /* Star-K */
+        height: 20px;
+    }
+
+    #collapsable-nav a { /* Collapsed nav menu text */
+        font-size: 1.2em;
+    }
+    #collapsable-nav a span { /* Collapsed nav menu glyph */
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn > a {
+        font-size: 1.5em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid #fff;
+        background-color: #f6b319;
+        color: #951c49;
+    }
+    #xs-deliver {
+        margin-top: 5px;
+        font-size: .7em;
+        letter-spacing: .1em;
+        text-transform: uppercase;
+    }
+/* End Header */
+
+/*Footer*/
+.panel-footer section{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.panel-footer section:nth-child(3){
+    margin-bottom: 0; /*margin already exists in the whole row*/
+}
+.panel-footer section hr{
+    width: 50%;
+}
+/* End Footer*/
+
+/* Home Page */
+      .container .restaurante{
+          margin: 30px;
+          padding:  0;
+          /*box-shadow: 0 0 50px #661331;
+          border: 2px solid #661331;*/
+      }
+      #frango, #carne{
+        width: 360px;
+        margin: 0 auto 15px;
+    }  
 }
 
-/********** Extra small devices only **********/
-@media (max-width: 767px) {
-  /* Header */
-.navbar-brand {
-    padding-top: 10px;
-    height: 80px;
-}
-.navbar-brand h1 { /* Restaurant name */
-    padding-top: 10px;
-    font-size: 5vw; /* 1vw = 1% of viewport width */
-}
-.navbar-brand p { /* Kosher cert */
-    font-size: .6em;
-    margin-top: 12px;
-}
-.navbar-brand p img { /* Star-K */
-    height: 20px;
-}
 
-#collapsable-nav a { /* Collapsed nav menu text */
-    font-size: 1.2em;
-}
-#collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
-}
-
-#call-btn > a {
-    font-size: 1.5em;
-    display: block;
-    margin: 0 20px;
-    padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
-    color: #951c49;
-}
-#xs-deliver {
-    margin-top: 5px;
-    font-size: .7em;
-    letter-spacing: .1em;
-    text-transform: uppercase;
-}
-  /* End Header */
-
-  /* Home Page */
-  .container .restaurante{
-      margin: 30px;
-      padding:  0;
-      /*box-shadow: 0 0 50px #661331;
-      border: 2px solid #661331;*/
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+    /* Header */
+    .navbar-brand h1 { /* Restaurant name */
+      padding-top: 5px;
+      font-size: 6vw;
+    }
+    /* End Header */
+    
+    /* Home page */
+    #frango, #carne {
+      width: 200px;
+      margin: 0 auto 15px;
+    }
   }
-  #frango, #carne{
-    width: 360px;
-    margin: 0 auto 15px;
-}
-
-}
 
 
 
@@ -230,17 +287,24 @@ body{
     text-align: center;
   }
 
+  #galeria {
+    color: rgb(221, 209, 209);
+    text-decoration: dotted;
+    margin-bottom: auto;
+    text-align: center;
+  }
+
   #titulo {
     color: black;
-    text-align: center;
+    /*text-align: center;*/
     position: relative;
     top: 45px;
   }
 
 
   #ch {
-    background-color:  rgb(206, 75, 92);;
-    text-decoration: black;
+    background-color:  rgb(47, 226, 31);;
+    text-decoration: rgb(0, 0, 0);
     width: 90%;
     height: 100%;
     margin-left: auto;
