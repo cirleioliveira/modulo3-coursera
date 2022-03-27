@@ -37,6 +37,11 @@ O menu suspenso deve ocupar toda a largura da janela do navegador. Certifique-se
 
 ( Dica: procure uma classe Bootstrap que centralize o texto, veja https://getbootstrap.com/docs/3.3/css/#type-alignment . ) (https://getbootstrap.com.br/docs/4.1/utilities/text/)
 
+11. Crie uma única seção realmente alta que usará o Bootstrap Grid e ocupe toda a largura da janela do navegador (menos algumas margens, é claro) para todas as visualizações: desktop, tablet e celular. Para tornar a seção realmente alta, você pode preenchê-la com MUITO texto ou simplesmente definir sua altura para algo como 1000px. Ele precisa ser alto o suficiente para fazer com que a rolagem para baixo seja necessária para visualizar a parte inferior da seção. Certifique-se de que a cor de fundo esteja definida para distingui-la do restante do conteúdo. ( Dica: não se esqueça de ter um elemento com um class='container' ou class='container-fluid' envolvendo sua grade. Lembre-se de que a grade faça algo "sempre", ou seja, não importa o tamanho da janela do navegador , use as col-xs-classes .... Nesse caso,col-xs-12. )
+
+Tanto a visualização do tablet quanto a visualização da área de trabalho do que é avaliado e necessário é a mesma. Aqui está a ilustração de maquete da versão para desktop e tablet do site (apenas as partes classificadas necessárias mostradas):
+
+
 
 
 Tarefa: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md
