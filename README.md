@@ -41,7 +41,7 @@ O menu suspenso deve ocupar toda a largura da janela do navegador. Certifique-se
 
 Tanto a visualização do tablet quanto a visualização da área de trabalho do que é avaliado e necessário é a mesma. Aqui está a ilustração de maquete da versão para desktop e tablet do site (apenas as partes classificadas necessárias mostradas):
 
-[App_Info_desktop](https://github.com/cirleioliveira/modulo3-coursera/blob/main/images/menu/tela/desktop.png)
+
 
 
 Tarefa: https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment3/Assignment-3.md
